@@ -13,7 +13,7 @@
 
 #define kdlsym_addr_pppoe_softc_list 0xFFFFFFFF844BCCB0
 
-#define kdlsym_addr_cc_cpu 0xFFFFFFFF8333E3F8
+#define kdlsym_addr_cc_cpu 0xFFFFFFFF83DB7E30
 #define kdlsym_addr_callwheelsize 0xFFFFFFFF83DB9E30
 
 #define kdlsym_addr_nd6_llinfo_timer 0xFFFFFFFF8250D160

@@ -828,6 +828,7 @@ def main():
     parser.add_argument('--interface', required=True)
     parser.add_argument('--fw',
                         choices=[
+                            '672',
                             '700','701','702','750', '751', '755',
                             '800', '801', '803', '850', '852',
                             '900', '903', '904', '950', '951', '960',

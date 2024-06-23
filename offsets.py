@@ -30,7 +30,7 @@ class OffsetsFirmware_672:
     PUSH_RBP_JMP_QWORD_PTR_RSI = 0xffffffff82c960f6
 
     # 0xffffffff822b4151 : pop rbx ; pop r14 ; pop rbp ; jmp qword ptr [rsi + 0x10]
-    POP_RBX_POP_R14_POP_RBP_JMP_QWORD_PTR_RSI_10 = 0xffffffff8232253f
+    POP_RBX_POP_R14_POP_RBP_JMP_QWORD_PTR_RSI_10 = 0xffffffff82322541
 
     # 0xffffffff82941e46 : lea rsp, [rsi + 0x20] ; repz ret
     LEA_RSP_RSI_20_REPZ_RET = 0xffffffff8295bac6
