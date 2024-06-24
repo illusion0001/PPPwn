@@ -792,7 +792,7 @@ class Exploit():
 
         print('[*] Waiting for stage1 to resume...')
         count = 0
-        while count < 3:
+        while count < 2:
             pkt = self.s.recv()
             if pkt and pkt.haslayer(PPP_LCP_Configure) and pkt[
                     PPP_LCP_Configure].code == CONF_REQ:
