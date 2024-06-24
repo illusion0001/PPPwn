@@ -972,8 +972,8 @@ class OffsetsFirmware_1100:
     # 0xffffffff8293c8c6 : lea rsp, [rsi + 0x20] ; repz ret
     LEA_RSP_RSI_20_REPZ_RET = 0xffffffff8293c8c6
 
-    # 0xffffffff826cb2da : add rsp, 0x28 ; pop rbp ; ret
-    ADD_RSP_28_POP_RBP_RET = 0xffffffff826cb2da
+    # 0xffffffff824a760b : pop rbx ; pop r12 ; pop r13 ; pop r14 ; pop r15 ; pop rbp ; ret
+    ADD_RSP_28_POP_RBP_RET = 0xffffffff824a760b
 
     # 0xffffffff824cdd5f : add rsp, 0xb0 ; pop rbp ; ret
     ADD_RSP_B0_POP_RBP_RET = 0xffffffff824cdd5f
